@@ -1,0 +1,417 @@
+10-0-0-5
+
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 39291593000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 55820477000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 56191267000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.064      96.88                  74.73
+"runtime" 0.049      348.37                 251.10
+
+Jan 16 19:21:02.845: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.152 0.756 0.756 0.756 0.827
+"kubelet" 0.113 0.187 0.187 0.187 0.214
+
+benchmark:
+10-0-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 22065000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 6330747000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 6342547000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.130      38.32                  18.78
+"runtime" 0.159      305.58                 212.79
+
+Jan 16 18:44:32.193: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.196 0.738 0.738 0.738 1.033
+"kubelet" 0.126 0.155 0.155 0.155 0.177
+
+35-0-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 152695000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 28722949000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 28893291000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"runtime" 0.026      483.69                 366.02
+"kubelet" 0.102      109.61                 84.12
+
+Jan 16 19:29:12.264: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.161 0.721 0.735 0.742 0.922
+"kubelet" 0.130 0.208 0.226 0.300 0.533
+
+105-0-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 39037513000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 55806632000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 56191267000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.182      109.47                 74.22
+"runtime" 0.152      916.39                 730.03
+
+Jan 16 19:15:51.425: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.312 0.770 0.830 0.905 0.931
+"kubelet" 0.206 0.340 0.409 0.564 0.612
+
+10-0-100-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 45144000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 27217661000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 27386610000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"runtime" 0.021      321.30                 226.48
+"kubelet" 0.067      92.42                  70.18
+
+Jan 16 19:11:12.033: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.063 0.784 0.784 0.784 0.828
+"kubelet" 0.091 0.179 0.179 0.179 0.196
+
+35_0_100_5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 19114604000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 55668996000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 56191267000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.100      101.88                 76.62
+"runtime" 0.389      492.06                 374.66
+
+Jan 16 19:19:05.321: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.187 0.687 0.718 0.797 0.798
+"kubelet" 0.120 0.231 0.240 0.266 0.361
+
+105-0-100-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 28996766000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 52876158000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 55378664000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.185      85.68                  51.11
+"runtime" 0.038      917.75                 733.93
+
+Jan 16 18:50:52.398: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.335 0.759 0.889 0.975 1.094
+"kubelet" 0.216 0.327 0.387 0.581 0.601
+
+10-0-300-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 2284963000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 13464237000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 16416279000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"runtime" 0.017      333.37                 238.10
+"kubelet" 0.062      94.46                  72.57
+
+Jan 16 19:02:46.555: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.023 0.560 0.560 0.560 0.714
+"kubelet" 0.088 0.165 0.165 0.165 0.196
+
+35-0-300-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 1593524000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 12535987000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 16416279000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.112      97.91                  72.52
+"runtime" 0.014      493.42                 377.22
+
+Jan 16 19:00:47.998: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.250 0.728 0.755 0.867 1.014
+"kubelet" 0.130 0.169 0.215 0.271 0.286
+
+105-0-300-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 16402073000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 38364770000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 46845260000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.236      125.48                 90.86
+"runtime" 0.206      923.93                 735.27
+
+Jan 16 19:34:15.154: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.319 0.781 0.823 0.918 0.999
+"kubelet" 0.200 0.320 0.418 0.558 0.609
+
+10-50-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 13721037000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 37239874000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 46457367000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.197      122.61                 92.81
+"runtime" 0.177      575.30                 434.07
+
+Jan 16 19:38:18.850: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.125 0.258 0.261 0.284 0.359
+"kubelet" 0.139 0.207 0.235 0.243 0.360
+
+30-50-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 1648884000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 27119661000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 27341786000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"runtime" 0.321      731.68                 573.75
+"kubelet" 0.198      100.60                 67.21
+
+Jan 16 19:08:01.254: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.183 0.321 0.350 0.413 0.454
+"kubelet" 0.171 0.240 0.277 0.321 0.392
+
+50-50-0-5
+[
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.5,
+    "Latency": 72442000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.9,
+    "Latency": 26051941000
+  },
+  {
+    "Operation": "",
+    "Method": "pod_start_latency_microseconds",
+    "Quantile": 0.99,
+    "Latency": 26215045000
+  }
+]
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"runtime" 0.220      885.95                 709.21
+"kubelet" 0.248      101.49                 66.63
+
+Jan 16 18:57:45.040: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"runtime" 0.200 0.373 0.392 0.428 0.463
+"kubelet" 0.192 0.263 0.307 0.378 0.514

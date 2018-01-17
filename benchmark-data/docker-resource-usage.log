@@ -1,0 +1,90 @@
+0 pod：
+
+Jan 14 21:18:09.725: INFO: No resource usage data for kubelet container (/kubelet.slice)
+Jan 14 21:18:09.726: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.035      82.90                  68.94
+"runtime" 0.026      207.02                 150.81
+
+Jan 14 21:28:39.785: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"kubelet" 0.041 0.051 0.056 0.056 0.058
+"runtime" 0.051 0.071 0.074 0.080 0.086
+
+
+10 pods：
+
+Jan 14 21:40:12.717: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.059      84.85                  70.42
+"runtime" 0.330      265.45                 202.32
+
+Jan 14 21:50:42.831: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.077      83.02                  68.70
+"runtime" 0.034      263.94                 201.07
+
+Jan 14 21:50:42.831: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"kubelet" 0.061 0.077 0.079 0.083 0.084
+"runtime" 0.054 0.073 0.075 0.076 0.076
+
+35 pods：
+
+Jan 14 20:52:33.690: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.098      46.45                  31.88
+"runtime" 0.066      375.85                 314.37
+
+Jan 14 21:03:34.801: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.136      69.50                  54.57
+"runtime" 0.072      386.29                 324.74
+
+Jan 14 21:03:34.802: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"kubelet" 0.099 0.134 0.137 0.142 0.143
+"runtime" 0.057 0.079 0.085 0.089 0.090
+
+
+105 pods：
+
+Jan 14 21:05:50.049: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.236      100.61                 71.56
+"runtime" 0.066      918.73                 765.74
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.226      110.75                 81.27
+"runtime" 0.066      922.32                 769.20
+
+Jan 14 21:17:28.352: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"kubelet" 0.219 0.256 0.274 0.289 0.292
+"runtime" 0.078 0.098 0.104 0.111 0.125
+
+
+10 pods 资源跟踪：
+
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.052      84.05                  69.69
+"runtime" 0.067      273.37                 209.98
+
+Jan 14 21:39:41.376: INFO: Resource usage:
+container cpu(cores) memory_working_set(MB) memory_rss(MB)
+"kubelet" 0.070      85.26                  68.96
+"runtime" 0.034      275.39                 211.79
+
+Jan 14 21:39:41.377: INFO: CPU usage of containers:
+container 50th% 90th% 95th% 99th% 100th%
+"/"       N/A   N/A   N/A   N/A   N/A
+"kubelet" 0.060 0.078 0.079 0.083 0.084
+"runtime" 0.054 0.070 0.077 0.079 0.083
+
+
